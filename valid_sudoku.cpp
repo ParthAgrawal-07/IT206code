@@ -1,5 +1,4 @@
 
-
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -21,7 +20,7 @@ public:
                 {
                  return false;
                 }
-                boxes[board[boxRow][boxCol]];
+                boxes[board[boxRow][boxCol]]=1;
             }
         }
         return true;
